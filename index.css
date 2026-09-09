@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'CursedTimerULiL';
+    src: url("./fonts/CursedTimerUlil-Aznm.ttf")
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1763663809974-9d4e8c23ee95?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    margin: 0;
+}
+
+.container {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-name {
+    color: #FFFFFF;
+    text-decoration: underline #F47B20;
+    margin-bottom: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.score-card {
+    backdrop-filter: blur(10px);
+    display: block;
+    text-align: center;
+    border: 2px solid #F47B20;
+    border-radius: 10px;
+    padding: 0 50px 30px 50px;
+    margin-top: 20px;
+    background-color: #160D09;
+}
+
+.nav {
+    margin-top: 20px; 
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-family: 'CursedTimerULiL', sans-serif;
+     
+}
+
+li {
+    background-color: #050505;
+    margin: 0;
+    padding: 5px 5px 0 5px;
+    border-radius: 5px ;
+    margin-right: 35px;
+}
+
+button {
+    border: 1px solid #F47B20;
+    border-radius: 6px;
+    background-color: #0A0807;
+    color: #FFFFFF;
+    padding: 6px 6px 3px 6px;
+    font-family: 'CursedTimerULiL', sans-serif;    
+}
+
+p {
+    font-size: 100px;
+    font-family: 'CursedTimerULiL', sans-serif;
+    margin:0;
+}
+
+#time {
+    border:2px solid #F47B20;
+    color: #FF9D42;
+}
+
+#live {
+    border:2px solid #c90606;
+    color: #c90606;
+}
+
+i {
+    color: #FFFFFF;
+    margin-right: 8px;
+}
+
+.rematch-btn {
+    font-family:'Roboto Condensed', sans-serif;
+    padding: 10px 50px 10px 50px;
+}
+
+.div-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}

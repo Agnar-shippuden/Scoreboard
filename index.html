@@ -1,0 +1,45 @@
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        
+    </head>
+    <body>
+        <div class="nav">
+            <ul>
+                <li id="time">8:42</li>
+                <li id="live">live</li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="score-card">
+                <div class="team-name">
+                <h3>HOME</h3>
+                </div>
+                <p id="count-home">0</p>
+                <button onclick="add1point()">+1</button>
+                <button onclick="add2point()">+2</button>
+                <button onclick="add3point()">+3</button>
+            </div>
+            <div class="score-card">
+                <div class="team-name">
+                <h3>GUEST</h3>
+                </div>
+                <p id="count-guest">0</p>
+                <button onclick="add1GuestPoint()">+1</button>
+                <button onclick="add2GuestPoint()">+2</button>
+                <button onclick="add3GuestPoint()">+3</button>
+            </div>
+            
+            
+        </div>
+            <div class="div-btn">
+                <button onclick="newGame()"class="rematch-btn"><i class="fa-solid fa-repeat"></i>New Game</button>
+            </div>
+        <script src="index.js"></script>
+    </body>
+</html>
