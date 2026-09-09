@@ -2,15 +2,15 @@
 let countHome = document.getElementById("count-home")
 
 let score = 0
-function add1point (){
+function add1Point (){
     score = score + 1
     countHome.innerText = score
 }
-function add2point (){
+function add2Point (){
     score = score + 2
     countHome.innerText = score
 }
-function add3point (){
+function add3Point (){
     score = score + 3
     countHome.innerText = score
 }
